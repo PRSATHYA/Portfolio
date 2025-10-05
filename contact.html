@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Sathya's Portfolio</title>
-  <meta name="description" content="Sathya's Portfolio">
+  <title>Bentofolio - Bootstrap Personal Portfolio Template</title>
+  <meta name="description" content="Bentofolio - Bootstrap Personal Portfolio Template">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.svg">
@@ -36,7 +36,12 @@
             <div class="navbar-main d-flex flex-grow-1">
               <div class="logo inner-logo d-block d-xl-none">
                 <a class="navbar-brand me-0" href="index.html">
-                  <img src="assets/img/logo/favicon.png" alt="SATHYA Logo" class="nav-icon" width="150" height="40">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0 1.5C0 1.10218 0.158035 0.720644 0.43934 0.43934C0.720644 0.158035 1.10218 0 1.5 0L9 0C9.39782 0 9.77936 0.158035 10.0607 0.43934C10.342 0.720644 10.5 1.10218 10.5 1.5V22.5C10.5 22.8978 10.342 23.2794 10.0607 23.5607C9.77936 23.842 9.39782 24 9 24H1.5C1.10218 24 0.720644 23.842 0.43934 23.5607C0.158035 23.2794 0 22.8978 0 22.5V1.5ZM13.5 1.5C13.5 1.10218 13.658 0.720644 13.9393 0.43934C14.2206 0.158035 14.6022 0 15 0L22.5 0C22.8978 0 23.2794 0.158035 23.5607 0.43934C23.842 0.720644 24 1.10218 24 1.5V9C24 9.39782 23.842 9.77936 23.5607 10.0607C23.2794 10.342 22.8978 10.5 22.5 10.5H15C14.6022 10.5 14.2206 10.342 13.9393 10.0607C13.658 9.77936 13.5 9.39782 13.5 9V1.5ZM13.5 15C13.5 14.6022 13.658 14.2206 13.9393 13.9393C14.2206 13.658 14.6022 13.5 15 13.5H22.5C22.8978 13.5 23.2794 13.658 23.5607 13.9393C23.842 14.2206 24 14.6022 24 15V22.5C24 22.8978 23.842 23.2794 23.5607 23.5607C23.2794 23.842 22.8978 24 22.5 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5V15Z"
+                      class="logo-icon" />
+                  </svg>
+                  <span>Bento<span class="primary">Folio</span></span>
                 </a>
               </div>
               <ul class="navbar-info mx-auto">
@@ -233,7 +238,20 @@
                       <p>I'm here to help if you're searching for a web developer to bring your ideas to life or a digital partner to take your business to the next level.</p>
                     </div>
                   </div>
-                  <div class="contact-area">
+
+
+<form name="contact" method="POST" data-netlify="true" action="/thank-you">
+  <input type="hidden" name="form-name" value="contact">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="text" name="subject" placeholder="Subject" required>
+  <input type="text" name="budget" placeholder="Budget" required>
+  <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+
+                  <!-- <div class="contact-area">
                     <div class="leave-comments-area">
                       <div class="comments-box">
                         <form id="contact-form" action="assets/mail.php" method="POST">
@@ -291,7 +309,7 @@
                         </form>
                         <p class="ajax-response mb-0"></p>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="contact-map-area">
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4274.460736920554!2d72.9406755756411!3d19.15213834957703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b862530d4a5b%3A0xc862410fe7e78d18!2sSKYLINE%20SPARKLE%2C%20Nahur%20West%2C%20Industrial%20Area%2C%20Bhandup%20West%2C%20Mumbai%2C%20Maharashtra%20400078!5e1!3m2!1sen!2sin!4v1759673191730!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -466,6 +484,4 @@
 </body>
 
 
-
 </html>
-
